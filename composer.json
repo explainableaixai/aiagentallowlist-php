@@ -1,0 +1,48 @@
+{
+    "name": "aiagentallowlist/aiagentallowlist",
+    "description": "PHP client for the AI Agent Allow List API: per-URL, method-aware allow, deny or flag verdicts for web-browsing AI agents, plus verified page-type URLs for 40 million+ domains.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "ai agent",
+        "ai agent allow list",
+        "allowlist",
+        "ai agents",
+        "agent guardrails",
+        "llm security",
+        "browsing agent",
+        "url policy",
+        "page types",
+        "web access control",
+        "ai safety",
+        "api client"
+    ],
+    "homepage": "https://www.aiagentallowlist.com",
+    "support": {
+        "docs": "https://www.aiagentallowlist.com/api-docs.php",
+        "source": "https://github.com/explainableaixai/aiagentallowlist-php",
+        "issues": "https://www.aiagentallowlist.com/contact.php"
+    },
+    "authors": [
+        {
+            "name": "Alpha Quantum",
+            "email": "info@alpha-quantum.com",
+            "homepage": "https://www.alpha-quantum.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AIAgentAllowlist\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AIAgentAllowlist\\Tests\\": "tests/"
+        }
+    }
+}
